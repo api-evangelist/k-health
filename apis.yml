@@ -1,8 +1,15 @@
 aid: k-health
 name: K Health
-description: 'K Health is a company surfaced as a portfolio company of ggv-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: health. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'K Health is a clinical AI and virtual primary care company founded in 2016 and headquartered
+  in New York City. Its platform pairs an AI-led symptom investigation and intake engine with a 24/7 team
+  of credentialed clinicians to deliver primary care, urgent care, mental health, and medical weight
+  management. K Health licenses its clinical AI to health systems — including Cedars-Sinai, Mayo Clinic,
+  Hackensack Meridian Health, Hartford HealthCare, Mass General Brigham, and Northwell Health — where it
+  triages patients, combines intake with EMR data (Epic/MyChart), and automates clinical documentation.
+  The company has raised more than $380M and was valued at roughly $900M as of 2024. K Health is a B2B2C
+  consumer health application with no public developer API; integrations are handled through partners
+  such as Health Gorilla for lab ordering. This profile was surfaced as a ggv-capital portfolio lead and
+  enriched with verified public identity, link, and domain-security signals.'
 url: https://raw.githubusercontent.com/api-evangelist/k-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +17,30 @@ x-backed-by:
 - ggv-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://images.ctfassets.net/xjguvgiou493/5QaOUQy7l5qjFFKB4Jpz48/aaafc6453f5f64b613c141ffcc03f7bd/khealth-logo.svg
 tags:
 - Company
 - Health
+- Healthcare
+- Telehealth
+- Clinical AI
+- Primary Care
+- Virtual Care
+- Digital Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,20 @@ maintainers:
 common:
 - type: Website
   url: https://khealth.com/
+- type: About
+  url: https://khealth.com/k-health-about-k
+- type: PrivacyPolicy
+  url: https://khealth.com/privacy-policy
+- type: TermsOfService
+  url: https://khealth.com/terms-of-use
+- type: Support
+  url: https://khealth.com/contact
+- type: GitHubOrganization
+  url: https://github.com/khealth
+- type: DomainSecurity
+  url: security/k-health-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
