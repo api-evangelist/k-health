@@ -1,0 +1,14 @@
+{
+  "repo": "k-health",
+  "feeds": [
+    {
+      "source": "https://khealth.com/press",
+      "feed_url": "https://khealth.com/press",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-10-10T13:15:00Z"
+}
